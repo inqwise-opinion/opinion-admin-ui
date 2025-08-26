@@ -21,6 +21,7 @@ const routeConfigs: RouteConfig[] = [
   { path: ROUTES.COLLECTORS, label: 'Collectors' },
   { path: ROUTES.COLLECTOR_DETAILS, label: 'Collector Details', parent: ROUTES.COLLECTORS, dynamic: true },
   { path: '/accounts/:accountId/collectors/:collectorId', label: 'Collector Details', dynamic: true },
+  { path: ROUTES.BILLING_INVOICES, label: 'Billing' },
   { path: ROUTES.PAYMENTS, label: 'Payments' },
   { path: ROUTES.REPORTS, label: 'Reports' },
   { path: ROUTES.SETTINGS, label: 'Settings' },
