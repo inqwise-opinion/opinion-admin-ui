@@ -52,38 +52,39 @@ const StyledDataGridWrapper = styled(DataGrid)(({ theme }) => ({
       },
       
       // Special styling for header checkbox cell
-      '&[data-field="select"]': {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: '4px',
+      '&[data-field="__check__"], &.MuiDataGrid-columnHeaderCheckbox': {
+        display: 'flex !important',
+        alignItems: 'center !important',
+        justifyContent: 'center !important',
+        padding: '0 !important',
         
         '& .MuiDataGrid-columnHeaderDraggableContainer': {
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          display: 'flex !important',
+          alignItems: 'center !important',
+          justifyContent: 'center !important',
           width: '100%',
           height: '100%',
         },
         
         '& .MuiDataGrid-columnHeaderTitleContainer': {
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          display: 'flex !important',
+          alignItems: 'center !important',
+          justifyContent: 'center !important',
           width: '100%',
           height: '100%',
         },
         
         '& .MuiDataGrid-columnHeaderTitleContainerContent': {
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          display: 'flex !important',
+          alignItems: 'center !important',
+          justifyContent: 'center !important',
           width: '100%',
           height: '100%',
         },
         
         '& .MuiCheckbox-root': {
           padding: '4px',
+          margin: '0 auto',
         },
       },
     },
@@ -153,7 +154,7 @@ const StyledDataGridWrapper = styled(DataGrid)(({ theme }) => ({
       },
       
       // Special styling for checkbox cells
-      '&[data-field="select"]': {
+      '&[data-field="__check__"]': {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
