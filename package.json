@@ -32,7 +32,7 @@
     "react-dom": "^19.2.0",
     "react-hook-form": "^7.65.0",
     "react-hot-toast": "^2.6.0",
-    "react-router-dom": "^7.9.4",
+    "react-router-dom": "^7.9.5",
     "yup": "^1.7.0"
   },
   "devDependencies": {
